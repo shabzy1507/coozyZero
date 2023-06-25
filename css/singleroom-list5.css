@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  background-color: #fff;
+}
+.container {
+  width: 42.8rem;
+  height: 105.6rem;
+  background-color: #fff;
+  padding: 9.6rem 2rem 11.9rem 2rem;
+}
+/* flex helper class */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  margin-bottom: 48px;
+}
+header p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.32px;
+
+  /* ctext */
+
+  color: rgba(40, 54, 24, 0.85);
+}
+.progress-bar {
+  width: 388px;
+  height: 12px;
+  background-color: rgba(243, 243, 243, 0.85);
+  border-radius: 24px;
+  margin-bottom: 73px;
+}
+.progress-bar p {
+  background-color: #bc6c25;
+  width: 176px;
+  height: 12px;
+  border-radius: 24px;
+}
+h1 {
+  font-weight: 800;
+  font-size: 26px;
+  margin-bottom: 34px;
+  letter-spacing: 0.374px;
+  width: 381px;
+  text-align: left;
+  /* Cozzy Text */
+
+  color: #171f0e;
+}
+.text-contain {
+  display: flex;
+}
+.text-contain p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  /* or 127% */
+
+  letter-spacing: 0.35px;
+
+  /* Cozzy Text */
+
+  color: #171f0e;
+}
+.change {
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 69px;
+  letter-spacing: 0.35px;
+  color: #bc6c25;
+}
+h4 {
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 0.35px;
+
+  color: #9f9e9e;
+}
+h2 {
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 0.364px;
+  margin: 18px 0 18px;
+  /* Cozzy Text */
+
+  color: #171f0e;
+}
+.step2,
+.step3 {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.38px;
+  color: rgba(40, 54, 24, 0.85);
+}
+.step3 {
+  margin-top: 69px;
+}
+h5 {
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 0.364px;
+  color: #9f9e9e;
+  margin: 12px 0 12px;
+}
+.continue-btn {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.35px;
+  justify-content: center;
+  margin-top: 18px;
+  color: #ffffff;
+  width: 138px;
+  height: 60px;
+  background: #bc6c25;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}

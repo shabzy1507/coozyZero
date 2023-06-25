@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  background-color: #fff;
+}
+.container {
+  width: 428px;
+  height: 1092px;
+  /* position: relative; */
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 45px 20px 0;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hidden {
+  display: none;
+}
+.previous-btn {
+  border: none;
+  width: 4.2rem;
+  height: 4.2rem;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.14);
+  border-radius: 100%;
+  /* position: absolute;
+  left: 25px;
+  top: 44px; */
+  cursor: pointer;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 60px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  color: #000000;
+}
+.liked-property {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.property-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.img-box {
+  width: 83px;
+  height: 83px;
+  background: url(/images/Frame\ 4015.png);
+  border-radius: 120px;
+}
+.liked-property-title {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.38px;
+  color: #171f0e;
+}
+.liked-property-details {
+  font-weight: 600;
+  width: 200px;
+  font-size: 15px;
+  letter-spacing: -0.32px;
+  color: rgba(40, 54, 24, 0.85);
+}
+.likey {
+  font-size: 20px;
+}

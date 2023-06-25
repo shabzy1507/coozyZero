@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/singleroom-list1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>listing</title>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <header>
+          <div class="progress-bar">
+            <p>&nbsp;</p>
+          </div>
+          <h1>How many guest can your room accomodate?</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, urna
+            lorem odio imperdiet est dolor vitae. Diam et lectus placerat morbi
+            vestibulum malesuada vehicula. Hendrerit blandit elit viverra.
+          </p>
+        </header>
+        <div class="selection">
+          <span>Guest</span>
+          <div class="flex btn-container">
+            <button class="decrease-btn flex" id="guestDecrease">
+              <span>&nbsp;</span>
+            </button>
+            <span class="guestMeasure">1</span>
+            <button class="increase-btn flex" id="guestIncrease">+</button>
+          </div>
+        </div>
+        <div class="helper-div">
+          <h4 class="context">
+            How many people can your bed accomodate at once?
+          </h4>
+        </div>
+        <div class="selection">
+          <span>People</span>
+          <div class="flex btn-container">
+            <button class="decrease-btn flex" id="peopleDecrease">
+              <span>&nbsp;</span>
+            </button>
+            <span class="peopleMeasure">1</span>
+            <button class="increase-btn flex" id="peopleIncrease">+</button>
+          </div>
+        </div>
+        <form action="">
+          <label class="context" for="matressType"
+            >What type of matress do you have</label
+          >
+          <div class="radios">
+            <label class="custom-radio-btn flex">
+              <span class="label">Student sized bed</span>
+              <input
+                name="pick-mattress"
+                type="radio"
+                value="StudentSizedBed"
+              />
+              <span class="checkmark"></span>
+            </label>
+            <label class="custom-radio-btn flex">
+              <span class="label">Sofa like bed</span>
+              <input name="pick-mattress" type="radio" value="SofaLikeBed" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="custom-radio-btn flex">
+              <span class="label">Air matress</span>
+              <input name="pick-mattress" type="radio" value="AirMatress" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="custom-radio-btn flex">
+              <span class="label">King sized bed</span>
+              <input
+                name="pick-mattress"
+                type="radio"
+                checked
+                value="KingSizedBed"
+              />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </form>
+      </main>
+
+      <footer>
+        <a href="/listing/listing2.html" class="back">
+          <svg
+            width="8"
+            height="14"
+            viewBox="0 0 8 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1L1 7L7 13"
+              stroke="#171F0E"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          Back</a
+        >
+        <a class="next" href="/listing/singleroom-listing2.html"> Next</a>
+      </footer>
+    </div>
+    <script src="/script/singleroom-listing1.js"></script>
+  </body>
+</html>

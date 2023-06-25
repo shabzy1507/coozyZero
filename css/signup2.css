@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  background-color: #fff;
+}
+.container {
+  width: 42.8rem;
+  height: 92.6rem;
+  padding: 0 2.1rem 0 2.1rem;
+  background-color: #fff;
+}
+header {
+  margin-bottom: 1.9rem;
+}
+h1 {
+  font-weight: 500;
+  font-size: 3.6rem;
+  color: #bc6c25;
+  margin-bottom: 2px;
+}
+.text-content {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #bababa;
+  margin-bottom: 2.4rem;
+}
+#email-tel {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #171f0e;
+  display: block;
+  margin-bottom: 2px;
+}
+#password {
+  display: block;
+  margin-bottom: 2px;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+input {
+  width: 100%;
+  /* height: 6rem; */
+  padding: 1.8rem;
+  border-radius: 8px;
+  background-color: #fff8f2;
+  border: none;
+  margin-bottom: 1.7rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #171f0e;
+}
+.cta *:focus {
+  outline: none;
+  /* box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5); */
+  border: 3px solid rgba(40, 54, 24, 0.85);
+  border-radius: 8px;
+}
+.cta-btn {
+  background-color: #bc6c25;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  height: 6rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 3.2rem;
+}
+.text-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.6rem 0 1.6rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.forgot-password {
+  color: #bc6c25;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+.forgot-password:hover {
+  color: #df7f2c;
+}
+.newHere {
+  color: #169c00;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+.newHere:hover {
+  color: #2cc315;
+}
+footer {
+  text-align: center;
+  margin-top: 2.6rem;
+}
+footer a {
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 0.38px;
+  color: rgba(40, 54, 24, 0.85);
+  text-decoration: none;
+}

@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+}
+.container {
+  width: 42.8rem;
+  height: 92.6rem;
+  background-color: #f4f7fc;
+  position: relative;
+  padding: 0 3.2rem 0 3.2rem;
+}
+/* flex helper class */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hidden {
+  visibility: hidden;
+}
+.previous-btn {
+  border: none;
+  width: 4.2rem;
+  height: 4.2rem;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.14);
+  border-radius: 100%;
+  position: absolute;
+  left: 25px;
+  top: 44px;
+  cursor: pointer;
+}
+h1 {
+  font-weight: 500;
+  font-size: 3.6rem;
+  line-height: 4.9rem;
+  width: 19.8rem;
+  margin-bottom: 3px;
+}
+.text-box {
+  margin-top: 16.6rem;
+  margin-bottom: 4.1rem;
+}
+.text-box p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #9f9e9e;
+}
+#email label {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  color: #03123f;
+  margin-bottom: 1.1rem;
+}
+#email input {
+  border: none;
+  background-color: #fffafa;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  width: 100%;
+  text-decoration: none;
+  padding: 1.7rem 2rem 1.9rem;
+  margin-bottom: 2.4rem;
+}
+.incorrect {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+  color: red;
+}
+.cta-btn {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 18.2rem;
+  border: none;
+  width: 100%;
+  height: 6rem;
+  background-color: #bc6c25;
+  font-weight: 500;
+  font-size: 1.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transform: all 0.4s;
+}
+.cta-btn:hover {
+  background-color: #df7f2c;
+}
+.password-requirements {
+  gap: 2rem;
+}
+.requirement-met {
+  color: #169c00;
+}

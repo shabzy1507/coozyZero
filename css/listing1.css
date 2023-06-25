@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  background-color: #fff;
+}
+.container {
+  width: 42.8rem;
+  height: 92.6rem;
+  background-color: #fff;
+  padding: 9.2rem 3.1rem 3.9rem 3.1rem;
+}
+.hidden {
+  display: none;
+}
+/* flex helper class */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  flex-direction: column;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-weight: 800;
+  font-size: 3.3rem;
+  text-align: center;
+  letter-spacing: 0.374px;
+  color: #171f0e;
+}
+header p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.408px;
+  /* Cozzy Text */
+  color: #171f0e;
+  width: 312px;
+}
+article {
+  flex-direction: column;
+  margin-top: 37px;
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  margin-bottom: 14px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  width: 330px;
+  text-align: center;
+  letter-spacing: 0.38px;
+  /* Cozzy Text */
+  color: #171f0e;
+}
+article p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  width: 361px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.32px;
+  /* ctext */
+  color: rgba(40, 54, 24, 0.85);
+}
+.slider {
+  gap: 10px;
+  margin-bottom: 60px;
+}
+.slider-btn1,
+.slider-btn2,
+.slider-btn3 {
+  width: 10px;
+  height: 10px;
+  background: #d9d9d9;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.btn-active {
+  background-color: #bc6c25;
+}
+.cta-btn {
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  height: 6rem;
+  background-color: #bc6c25;
+  font-weight: 500;
+  font-size: 1.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transform: all 0.4s;
+}
+.cta-btn:hover {
+  background-color: #df7f2c;
+}
+footer {
+  flex-direction: column;
+}
+footer p {
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: -0.078px;
+  color: rgba(40, 54, 24, 0.85);
+  margin-top: 15px;
+}
+.terms {
+  color: #bc6c25;
+}

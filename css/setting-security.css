@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  background-color:  #fff;
+}
+.container {
+  width: 428px;
+  height: 1092px;
+  /* position: relative; */
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 45px 20px 0;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.previous-btn {
+  border: none;
+  width: 4.2rem;
+  height: 4.2rem;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.14);
+  border-radius: 100%;
+  /* position: absolute;
+  left: 25px;
+  top: 44px; */
+  cursor: pointer;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 121px;
+  margin-bottom: 36px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  color: #000000;
+}
+h2 {
+  font-weight: 800;
+  font-size: 17px;
+  letter-spacing: -0.408px;
+  color: #000000;
+}
+.text-contain p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #171f0e;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 70px;
+  margin-bottom: 63px;
+}
+.info-contain {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.text-contain {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.update-btn {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.38px;
+  text-decoration: none;
+  width: 376px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+  background: #bc6c25;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  color: #ffffff;
+}
+.img-contain {
+  width: 86px;
+  height: 80px;
+  background: url(.png);
+  border-radius: 7px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+input,
+select {
+  width: 397px;
+  border: none;
+  padding: 12px;
+  height: 45px;
+  background: #fafafa;
+  border-radius: 7px;
+}
+footer {
+  margin-top: 108px;
+}
+.changePassword,
+.authentication,
+.activityLog {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  color: #171f0e;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 384px;
+  height: 48px;
+  padding-left: 10px;
+  background: #fafafa;
+}
+.changePassword {
+  margin-bottom: 20px;
+}
+h4 {
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.066px;
+  margin: 8px 6px 20px;
+  color: #171f0e;
+}

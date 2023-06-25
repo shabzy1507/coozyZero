@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset-smsEmail.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Verification code</title>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <a href="/signup/reset-password.html" class="previous-btn flex">
+          <svg
+            width="10"
+            height="15"
+            viewBox="0 0 10 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 2L2 7.5L8 13"
+              stroke="#BC6C25"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+        <div class="text-box">
+          <h1>Enter code sent to your E-mail</h1>
+          <p>We sent it to the email example@cozzyme.com</p>
+        </div>
+        <form id="email" class="flex" action="#">
+          <input type="text" required />
+          <input type="text" required />
+          <input type="text" required />
+          <input type="text" required />
+          <input type="text" required />
+          <input type="text" required />
+        </form>
+        <p class="code">
+          <span>Resend code</span>
+          <span class="timer"> 30s</span>
+        </p>
+      </main>
+      <footer>
+        <a href="/signup/new-password.html" class="cta-btn flex"> Verify</a>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  background-color: #fff;
+}
+.container {
+  width: 428px;
+  height: 1228px;
+  background-color: #ffffff;
+  padding: 11.7rem 2rem 0 2rem;
+}
+/* flex helper class */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-weight: 800;
+  font-size: 25px;
+  color: #000000;
+}
+header p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+  color: rgba(40, 54, 24, 0.85);
+  opacity: 0.8;
+  margin-top: 5px;
+  margin-bottom: 23px;
+}
+.tag {
+  width: 98px;
+  height: 28px;
+  background-color: #dd8130;
+  border-radius: 14px;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: -0.078px;
+  color: #ffffff;
+  margin-top: 32px;
+  margin-bottom: 18px;
+}
+.img {
+  width: 38.8rem;
+  height: 20.6rem;
+  background-image: url(/images/Frame.jpg);
+  background-size: cover;
+}
+.price-tag {
+  margin-bottom: 3.7rem;
+}
+.pricing {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  text-transform: uppercase;
+  color: #000000;
+  justify-content: space-between;
+}
+.price {
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: right;
+  letter-spacing: -0.408px;
+  color: #bc6c25;
+}
+.tag-details {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  justify-content: space-between;
+  color: #9f9e9e;
+}
+label {
+  display: block;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  color: rgba(40, 54, 24, 0.85);
+}
+h2 {
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: -0.408px;
+  color: #000000;
+  margin-bottom: 17px;
+  margin-top: 17px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.checking-btn {
+  border: none;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  background-color: #fff;
+  display: inline-block;
+  margin-top: 5px;
+  cursor: pointer;
+  color: #bc6c25;
+}
+.checking-info {
+  row-gap: 1.6rem;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  color: rgba(40, 54, 24, 0.85);
+  margin-bottom: 2.7em;
+}
+.grid-end {
+  justify-self: end;
+}
+h3 {
+  margin-bottom: 1.7rem;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: -0.408px;
+  color: #000000;
+}
+.charge,
+.total-pay {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  row-gap: 1.6rem;
+  color: rgba(40, 54, 24, 0.85);
+}
+.total-pay {
+  margin-top: 2.6rem;
+  opacity: 0.7;
+  border-top: 0.5px solid #9f9e9e;
+  padding-top: 1.7rem;
+  margin-bottom: 5.2rem;
+}
+.cta-btn {
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  height: 6rem;
+  background-color: #bc6c25;
+  font-weight: 500;
+  font-size: 1.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transform: all 0.4s;
+}
+.cta-btn:hover {
+  background-color: #df7f2c;
+}

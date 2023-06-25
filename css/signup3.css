@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+}
+.container {
+  width: 42.8rem;
+  height: 92.6rem;
+  background-color: #f4f7fc;
+  position: relative;
+  padding: 0 3.2rem 0 3.2rem;
+}
+/* flex helper class */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.previous-btn {
+  text-decoration: none;
+  border: none;
+  width: 4.2rem;
+  height: 4.2rem;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.14);
+  border-radius: 100%;
+  position: absolute;
+  left: 32px;
+  top: 44px;
+  cursor: pointer;
+}
+h1 {
+  font-weight: 500;
+  font-size: 3.6rem;
+  line-height: 49px;
+  width: 26.6rem;
+  margin-bottom: 3px;
+  margin-left: 1.9rem;
+}
+.text-box {
+  margin-top: 16.6rem;
+}
+.text-box p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #9f9e9e;
+  margin-left: 1.9rem;
+  margin-bottom: 4.9rem;
+}
+.cta {
+  width: 100%;
+  margin-bottom: 14.5rem;
+}
+.cta-btn {
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  height: 6rem;
+  background-color: #bc6c25;
+  font-weight: 500;
+  font-size: 1.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transform: all 0.4s;
+}
+.cta-btn:hover {
+  background-color: #df7f2c;
+}
+.options {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #4f4f4f;
+  margin-bottom: 2.4rem;
+}
+.signup-options {
+  gap: 1rem;
+  margin-bottom: 19.4rem;
+}
+.signup-option {
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.4rem;
+  text-align: center;
+  color: #828282;
+}

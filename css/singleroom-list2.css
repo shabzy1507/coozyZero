@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  background-color: #fff;
+}
+.container {
+  width: 42.8rem;
+  height: 113rem;
+  background-color: #fff;
+  padding: 9.6rem 2rem 11.9rem 2rem;
+}
+/* flex helper class */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  margin-bottom: 31px;
+}
+header p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.32px;
+
+  /* ctext */
+
+  color: rgba(40, 54, 24, 0.85);
+}
+.progress-bar {
+  width: 388px;
+  height: 12px;
+  background-color: rgba(243, 243, 243, 0.85);
+  border-radius: 24px;
+  margin-bottom: 73px;
+}
+.progress-bar p {
+  background-color: #bc6c25;
+  width: 75px;
+  height: 12px;
+  border-radius: 24px;
+}
+h1 {
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 41px;
+  letter-spacing: 0.374px;
+  width: 381px;
+  text-align: left;
+  /* Cozzy Text */
+  margin-bottom: 34px;
+  color: #171f0e;
+}
+.selection {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.38px;
+  color: #171f0e;
+  padding: 0 57px 0 13px;
+  justify-content: space-between;
+}
+.increase-btn,
+.decrease-btn {
+  width: 49px;
+  height: 48px;
+  background-color: #fff;
+  opacity: 0.6;
+  font-size: 30px;
+  /* Inactive Nav */
+  border: 2px solid #9f9e9e;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.decrease-btn span {
+  width: 25px;
+  height: 0px;
+  border: 3px solid #bc6c25;
+}
+.increase-btn span {
+  height: 12px;
+  width: 12px;
+}
+.btn-container {
+  gap: 47px;
+}
+.context,
+form {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  color: rgba(40, 54, 24, 0.85);
+}
+form {
+  margin-top: 67px;
+}
+form .context {
+  color: #171f0e;
+  font-weight: 700;
+  font-size: 22px;
+}
+.radios {
+  flex-direction: column;
+  gap: 15px;
+  display: flex;
+  margin-top: 27px;
+}
+footer {
+  margin-top: 341px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 0 9px 0 9px;
+}
+.back {
+  display: flex;
+  gap: 27px;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.24px;
+  text-decoration: none;
+  /* Cozzy Text */
+
+  color: #171f0e;
+}
+.next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 24px;
+  width: 86px;
+  height: 36px;
+  background: #9f9e9e;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: -0.408px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.custom-radio-btn {
+  --size: 20px;
+  min-width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  cursor: pointer;
+  /* changes from the video   */
+  justify-content: start;
+  margin: 0 10px;
+  position: relative;
+  padding-left: var(--size);
+}
+
+.custom-radio-btn input {
+  display: none;
+}
+
+/* handle if you want label on the left of the checkmark instead */
+
+.custom-radio-btn.left {
+  padding-left: 0;
+  padding-right: var(--size);
+}
+
+/* label  */
+
+.custom-radio-btn .label {
+  margin-left: 70px;
+}
+
+.custom-radio-btn.left .label {
+  margin: 0 5px;
+}
+
+.custom-radio-btn[aria-label]::after {
+  content: attr(aria-label);
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* checkmark */
+
+.custom-radio-btn .checkmark {
+  --gap: 3px;
+  --border: 2px;
+  --check-color: #bc6c25;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: inline-block;
+  transition: opacity 0.3s ease;
+  /* changes from the video  */
+
+  border: var(--border) solid #bc6c25;
+  padding: var(--gap);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.custom-radio-btn.left .checkmark {
+  left: auto;
+  right: 0;
+}
+
+.custom-radio-btn input:checked ~ .checkmark {
+  /* changes from the video  */
+
+  /*  content box origin will make sure the bg-image only stays inside content area in between padding  */
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(
+    circle at center,
+    var(--check-color)
+      /* the size of the check mark is determined by subtracting from the size of the circle
+     the border(both sides) and the gap(both sides) than dividing it by 2 to get the radius of the circle        */
+      calc((var(--size) - (var(--border) * 2) - (var(--gap) * 2)) / 2),
+    rgba(255, 255, 255, 0) 0
+  );
+}

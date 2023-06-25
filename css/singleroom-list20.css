@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  background-color: #fff;
+}
+.container {
+  width: 42.8rem;
+  height: 160rem;
+  background-color: #fff;
+  padding: 9.6rem 2rem 11.9rem;
+  position: relative;
+}
+/* flex helper class */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hidden {
+  display: none;
+}
+header {
+  margin-bottom: 38px;
+}
+header p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.32px;
+  color: rgba(40, 54, 24, 0.85);
+}
+
+.progress-bar {
+  width: 388px;
+  height: 12px;
+  background-color: rgba(243, 243, 243, 0.85);
+  border-radius: 24px;
+  margin-bottom: 73px;
+}
+.progress-bar p {
+  background-color: #bc6c25;
+  width: 388px;
+  height: 12px;
+  border-radius: 24px;
+}
+h1 {
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 0.36px;
+  margin-bottom: 12px;
+  text-align: left;
+  /* Cozzy Text */
+
+  color: #171f0e;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading span {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+
+  color: #bc6c25;
+}
+h2 {
+  font-weight: 800;
+  font-size: 17px;
+  letter-spacing: -0.408px;
+  color: #000000;
+}
+h4 {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  color: #000000;
+}
+.grid-contain {
+  width: 386px;
+  height: 315px;
+  padding: 7px 4px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  margin-top: 26px;
+  margin-bottom: 25px;
+}
+.img-contain {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8px;
+}
+.img-subContain {
+  display: flex;
+  flex-direction: column;
+  gap: 6.5px;
+  height: 247px;
+}
+.img-subContain img {
+  width: 100%;
+}
+.grid-text-contain {
+  margin-top: 9px;
+}
+.grid-text-contain span {
+  font-weight: 400;
+  font-size: 12px;
+  color: #9f9e9e;
+}
+.grid-text-contain p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  color: #000000;
+}
+.text-contain {
+  margin-bottom: 56px;
+}
+.text-contain h4 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.text-contain p {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.078px;
+  color: #000000;
+}
+.link {
+  display: flex;
+  justify-content: end;
+}
+.link a {
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: -0.408px;
+  color: #000000;
+}
+footer {
+  margin-top: 150px;
+}
+.publish {
+  height: 82px;
+  width: 100%;
+  background-color: #bc6c25;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 7px;
+  font-weight: 800;
+  font-size: 28px;
+  letter-spacing: 0.36px;
+
+  color: #ffffff;
+}
+.modal {
+  width: 365px;
+  height: 354px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/images/Frame\ 449.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  left: 7.5%;
+}
+.modal h2 {
+  font-weight: 800;
+  font-size: 24px;
+  margin-top: 80px;
+  margin-bottom: 15px;
+  line-height: 34px;
+  letter-spacing: 0.36px;
+  text-align: center;
+  color: #ffffff;
+}
+.modal p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.32px;
+  text-align: center;
+  color: #c2c2c2;
+  padding: 0 28px 28px;
+}
+.modal a {
+  width: 265px;
+  height: 50px;
+  background: linear-gradient(0deg, #bc6c25, #bc6c25), #ffffff;
+  background-blend-mode: multiply, normal;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 17px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: -0.408px;
+  color: #ffffff;
+  margin-left: 45px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(1px);
+  z-index: 5;
+}

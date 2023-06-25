@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/summary.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Summary</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Review booking summary</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Ut et amet est et suspendisse
+          mauris morbi. Accumsan pellentesque eget sit nullam id aliquet
+          pellentesque penatibus.
+        </p>
+      </header>
+      <section class="price-tag">
+        <figure class="img"></figure>
+        <span class="tag flex">Apartment</span>
+        <div class="pricing flex">
+          <span>Very comfortable 3 Bedroom Duplex</span>
+          <span class="price">NGN 12,000</span>
+        </div>
+        <div class="tag-details flex">
+          <span>Ajah, Lagos</span>
+          <span>/Night</span>
+        </div>
+      </section>
+      <section class="payment">
+        <form action="#">
+          <div>
+            <label for="checkIn">Check in</label>
+            <input type="date" name="checkIn" id="checkIn" required />
+          </div>
+          <div>
+            <label for="checkOut">Check out</label>
+            <input type="date" name="checkOut" id="checkOut" required />
+          </div>
+        </form>
+        <button class="checking-btn">Done</button>
+        <h2>Check in/out Details</h2>
+        <div class="checking-info grid">
+          <span>Date</span>
+          <span class="grid-end combine-dates">Nov 28 - Nov 31 2023</span>
+          <span>Check-in</span>
+          <span class="grid-end checkIn-date">November 23, 2023</span>
+          <span>Check-out</span>
+          <span class="grid-end checkOut-date">November 31, 2023</span>
+        </div>
+        <h3>Payment</h3>
+        <div class="charge grid">
+          <span>Amount (3 days )</span>
+          <span class="grid-end">NGN 150,000</span>
+          <span>Charges</span>
+          <span class="grid-end">NGN 7,000</span>
+        </div>
+        <p class="grid total-pay">
+          <span>Total</span>
+          <span class="grid-end">NGN 157,000.00</span>
+        </p>
+      </section>
+      <footer>
+        <a href="/summary/pay1.html" class="cta-btn flex"> Continue</a>
+      </footer>
+    </div>
+    <script src="../script/summary.js "></script>
+  </body>
+</html>

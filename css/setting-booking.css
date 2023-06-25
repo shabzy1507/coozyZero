@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  background-color: #fff;
+}
+.container {
+  width: 428px;
+  height: 1092px;
+  /* position: relative; */
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 45px 20px 0;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hidden {
+  display: none;
+}
+.previous-btn {
+  border: none;
+  width: 4.2rem;
+  height: 4.2rem;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.14);
+  border-radius: 100%;
+  /* position: absolute;
+  left: 25px;
+  top: 44px; */
+  cursor: pointer;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 121px;
+  margin-bottom: 36px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  color: #000000;
+}
+h2 {
+  font-weight: 800;
+  font-size: 17px;
+  letter-spacing: -0.408px;
+  color: #000000;
+}
+.booking-btn {
+  width: 384px;
+  height: 44px;
+  background: #f4f4f4;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px 0;
+  margin-bottom: 14px;
+}
+.activeBtn,
+.completedBtn,
+.cancelledBtn {
+  font-weight: 700;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: -0.408px;
+  color: #9f9e9e;
+}
+.active-cancelledBtn,
+.active-completedBtn,
+.active-activeBtn {
+  font-weight: 700;
+  font-size: 17px;
+  height: 38px;
+  border: none;
+  letter-spacing: -0.408px;
+  background: #bc6c25;
+  border-radius: 65px;
+  color: #ffffff;
+}
+.active-activeBtn {
+  width: 98px;
+}
+.active-completedBtn {
+  width: 135px;
+}
+.active-cancelledBtn {
+  width: 125px;
+}
+h4 {
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.408px;
+  color: #000000;
+}
+.activeInfo-box,
+.cancelledInfo-box,
+.completedInfo-box {
+  width: 100%;
+  padding: 17px 20px 25px 11px;
+  height: 215px;
+  background: rgba(250, 250, 250, 0.8);
+  border-radius: 12px;
+  margin-bottom: 31px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.img-contain {
+  width: 124px;
+  height: 124px;
+  border-radius: 24px;
+}
+.activeInfo-date,
+.cancelledInfo-date,
+.completedInfo-date {
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(40, 54, 24, 0.85);
+  margin-bottom: 15px;
+}
+.active-prize,
+.cancelled-prize,
+.completed-prize {
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.24px;
+  color: #bc6c25;
+}
+.perDay {
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.066px;
+  color: #9f9e9e;
+}
+.status {
+  font-weight: 400;
+  font-size: 12px;
+  color: #bc6c25;
+  padding: 5px 3px;
+  margin-left: 13px;
+  border: 0.5px solid #bc6c25;
+  border-radius: 4px;
+}
+.cancelledInfo-box .status {
+  border: 0.5px solid #9f9e9e;
+  color: #9f9e9e;
+}
+.rating {
+  width: 29px;
+  height: 16px;
+  background: #ecedee;
+  border-radius: 4px;
+}
+.heading-box {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-bottom: 10px;
+}
+.text-contain {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.btn-box {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+.moreDetails {
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.24px;
+  color: #ffffff;
+  width: 177px;
+  height: 34px;
+  background: #bc6c25;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.eReceipt {
+  font-weight: 400;
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -0.24px;
+  width: 155px;
+  height: 34px;
+  border: 1px solid #bc6c25;
+  border-radius: 45px;
+  color: #bc6c25;
+}
